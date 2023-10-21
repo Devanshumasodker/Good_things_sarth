@@ -69,7 +69,21 @@ body{
     font-weight: 500;
     margin: 0 15px;
     text-transform: uppercase;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    
 }
+#nav #links a:hover{
+    color:rgb(7, 132, 107);
+    transform: scale(1.4);
+}
+
+/* #nav #links a:hover{
+color: black;
+text-decoration: underline;
+scale: 1.1;
+animation-duration: 1s;
+
+ } */
 
 cursor{
     height: 100px;
@@ -312,6 +326,8 @@ justify-content: center;
             margin: 0 4px;
             text-transform: uppercase;
         }
+
+       
 
         #nav #links #icon i{
            font-size: 13px;
