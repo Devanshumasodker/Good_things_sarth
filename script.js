@@ -47,16 +47,6 @@ ScrollTrigger.refresh();
 Allanimation();
 
 
-var atag = document.getElementsByClassName("res");
-
-atag.addEventListener("click", function() {
-gsap.to("a",{
-right : 60,
-opacity:0,
-duration:0.5,
-})
-});
-
 
 
 gsap.to("#nav #part-1 svg", {
@@ -83,6 +73,8 @@ gsap.to("#nav #links a", {
     }
 })
   
+
+
 
 
 
@@ -189,4 +181,3 @@ function mouseanimemove(){
        });
 }
 mouseanimemove();
-
